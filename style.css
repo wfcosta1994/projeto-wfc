@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+        font-family: 'inter';
+}
+#logo{
+    width: 100px;
+    margin: 25px;
+    margin-left: 10px;
+}
+#titulo{
+    color: aliceblue;    
+    margin-left: 100px;
+}
+#subtitulo{
+    color: aliceblue;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+#menusuperior{
+    background-image: url(imagem/imgsuperior.svg);
+    color: aliceblue;
+}
+#menuinformativo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    /* os códigos acima podem ser usados dessa forma - margin: 50px(cima) 0px(direita) 50px(baixo) 100px(esqueda); */
+    padding: 10px;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 55px;
+}
+#titulovideo{
+    color: #247BA0;
+}
+#carrossel{
+    background-color:#247BA0;
+    padding: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: #EAECE5;
+}
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+#setaesquerda{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    padding-top: 59%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform:translate(-7px);
+    transition-duration:0.5s;
+}
+#formulario{
+    text-align: center;
+}
+#tituloform{
+    padding: 50px;
+    font-size: 25px;
+    color: #383838;
+}
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: #247BA0;
+    height: 40px;
+    Width: 250px;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: #EAECE5;
+    border: 0px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:hover{
+    transition-duration:0.5s;
+}

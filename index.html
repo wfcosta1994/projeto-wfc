@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiro Projero</title>
+</head>
+<body>
+    <div id="menusuperior">
+        <!--a TAG "a" serve para colocar link em uma imagem-->
+        <a href="https://www.escoladnc.com.br/"> <img id="logo" src="imagem/logo.svg" alt="ERROR"> </a>
+        <!--a TAG "br" serve para quebrar o texto-->
+        <h1 id="titulo"> Dê os primeiros passos da <br> 
+                        sua carreira em Tecnologia</h1>
+        <p id="subtitulo">Inscreva-se no curso gratuito de Introdução à <br>
+                        Tecnologia da DNC School e aprenda os principais <br>
+                        fundamentos para construir experiências efetivas.</p> 
+    </div>
+    <div id="menuinformativo">
+        <p class="textoinformativo"> <img src="icones/certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão</p>
+        <p class="textoinformativo"> <img src="icones/relogio.svg" class="icone" id="relogio" alt=""> 4 horas de conteúdo</p>
+        <p class="textoinformativo"> <img src="icones/camera.svg" class="icone" id="camera" alt=""> Aulas online gravadas</p>
+    </div>
+
+    <div id="video">
+        <iframe width="500" height="360" src="https://www.youtube.com/embed/HoU3WkRyKVg" title="Pablo Marçal | ESSES PRINCÍPIOS VÃO TE FAZER PROSPERAR RICO EM 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+        <h1 id="titulovideo">Aprenda com especialistas e <br> 
+            comece seu primeiro projeto</h1>
+            <br>
+            <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br> 
+                problemas complexos. <br>
+                <br>
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+    <!-- CARROSSEL -->
+    <div id="carrossel">
+        <h1> Mais de 500 alunos já iniciaram seus estudos </h1>
+        <div id="cards">
+            <img id="setaesquerda" onclick="rolarparaesquerda()" class="seta" src="icones/setaparaesquerda.svg" alt="">
+            <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="">
+            <img id="samanta" class="card" src="./cards/samanta.svg" alt="">
+            <img id="bruna" class="card" src="./cards/bruna.svg" alt="">
+            <!-- A ordem das classes ou id não altera o resultado do código -->
+            <img id="setadireita" class="seta" src="icones/setaparadireita.svg" onclick="rolarparadireita()" alt="">           
+        </div>
+
+    </div>
+    <!-- FORMULÁRIO -->
+    <div id="formulario">
+        <h1 id="tituloform">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/8NCS33jFz3954C6o2AdXzY" method="POST">
+            <input type="text" placeholder="Nome" name="Nome" required > <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="number" placeholder="Telefone" name="Telefone"> <br>
+            <input type="number" placeholder="Idade" name="Idade" name="Idade" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit"> Acesse a ementa grátis </button>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
